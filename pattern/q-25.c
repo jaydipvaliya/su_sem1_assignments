@@ -7,23 +7,14 @@ int main(){
     {
         for (int j = 1; j <= i; j++)
         {
-            if (j!=i)
-            {
+           
                 printf("%c", 64+j);
             }
-            
-            if (j==i)
-            {
-                for (int k = j; k > 0; k--)
-                {
-                    printf("%c", 64+k);
+            for (int j = i-1; j >= 1; j--){
+                    printf("%c", 64+j);
                 }
                 
-            }
-            
-        }
         printf("\n");
     }
-    
     return 0;
 }
