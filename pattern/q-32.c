@@ -7,24 +7,19 @@ int main(){
     {
         for (int j = 1; j <= i; j++)
         {
-            if (i == n)
-            {
-                printf("*");
-            }
-            else{
-                if (j == 1 || j == i)
-                {
+           if(i==n){
                     printf("*");
                 }
-                else{
-                    printf(" ");
-                }
+               else if (j==1 || j==i){
+                printf("*");
+               }
+               else{
+                printf(" ");
+               }
             }
             
-            
-        }
         printf("\n");
-    }
+        }
     
     return 0;
 }
