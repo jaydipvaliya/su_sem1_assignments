@@ -9,9 +9,9 @@ int main(){
         {
             printf(" ");     
         }
-        for (int k = i; k <= n; k++)
+        for (int k = 1; k <= n-i+1; k++)
         {
-            printf("%c", 64+k);     
+            printf("%c",64+k);     
         }
         
         printf("\n");
